@@ -1,0 +1,24 @@
+# Ignore MSVC++ binary and object directories
+Debug/
+Release/
+ipch/
+lib/
+
+*.suo
+*.sdf
+*.opensdf
+
+*~
+*.tags
+
+# Ignore GKT directories
+bin/
+.obj/
+.lib/
+
+# Ignore gcov files
+*.gcda
+*.gcno
+coverageHTML
+
+doxygen/
