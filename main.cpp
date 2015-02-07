@@ -40,7 +40,7 @@ int main(int argc, const char* argv[])
 	std::vector<std::vector<cv::DMatch> > matches;
 	const unsigned int nearestNeighbors(2);
 	matcher.knnMatch(trainingDescriptors, searchDescriptors, matches,
-		nearestNeighbors, 2);
+		nearestNeighbors, 2);// TODO:  Crashes here
 
 	// Exctract best matches
 	unsigned int i;
